@@ -1,42 +1,28 @@
 body{
-    background-color: rgb(114, 235, 204);
-    background-image: url("SECURITY.webp");
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     background-repeat: no-repeat;
- 
+    background-image: url('ss5.jpg');
 }
-.flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  row {
-    width: 100%;
-  }
-  .flex-item {
-    background:rgb(255, 255, 255);
-    padding: 5px;
-    width: 200px;
-    height: 150px;
-    margin: 10px;
-    line-height: 1000px;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-    border-radius: 10px;
 
-  }
-p{
-    font-size: large;
-    line-height: 20px;
+legend{
+  font-size: xx-large;
+  color: rgb(61, 61, 61);
+  font-style: italic;
 }
-h3{
-   
-    font-style: initial;
-    text-decoration: wavy;
-    font-size: x-large;
+
+label{
+color: rgb(55, 56, 56);
+}
+
+fieldset{
+  text-align: left;
+  width: 300px;
+  height: 100px; 
+  padding: 10px; 
+  margin: 20px;
+
+}
+img{
+  align-items: center;
 }
