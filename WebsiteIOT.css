@@ -1,8 +1,10 @@
 body{
     background-color: rgb(255, 255, 255);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('ss5.jpg');
+    height: 100%;
 }
 
 legend{
@@ -21,5 +23,10 @@ fieldset{
   height: 100px; 
   padding: 10px; 
   margin: 20px;
+
+}
+img{
+  height: 200px;
+  width: 500px;
 
 }
