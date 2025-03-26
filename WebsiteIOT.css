@@ -1,23 +1,24 @@
-body{
-    background-color: rgb(255, 255, 255);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('ss5.jpg');
-    height: 100%;
+body {
+  height: 100%;
+  background-image: url('Sheet-2209-05_Image-_06-800x533.webp');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+
 }
 
 legend{
   font-size: xx-large;
-  color: rgb(61, 61, 61);
+  color: rgb(255, 255, 255);
   font-style: italic;
 }
 
 label{
-color: rgb(55, 56, 56);
+color: rgb(255, 255, 255);
 }
 
 fieldset{
+  padding-left: 50px;
   text-align: left;
   width: 300px;
   height: 100px; 
@@ -28,5 +29,4 @@ fieldset{
 img{
   height: 200px;
   width: 500px;
-
 }
