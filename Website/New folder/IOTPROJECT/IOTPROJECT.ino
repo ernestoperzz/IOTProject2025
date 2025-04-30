@@ -6,6 +6,7 @@
 #include <WiFiClient.h>
 #include <WebServer.h>
 #include <ESPmDNS.h>
+#include <homepage.h>
 
 const char* ssid = "Ernesto";
 const char* password = "Vodafone12345";
@@ -110,7 +111,8 @@ Serial.println("");
 
 void loop() {
   // put your main code here, to run repeatedly:
-
+  server.handleClient();
+  delay(100);
 
   char key = keypad.getKey();
   switch (key) {
@@ -246,7 +248,8 @@ void SmokeAlarm() {
 }
 
 void handleRoot() {
-  server.send(200, "text/html", WebsiteIOT2); // Send the HTML page
+  String message = homepage;
+  server.send(200, "text/html", homepage); // Send the HTML page
 }
 
 void handleNotFound() {

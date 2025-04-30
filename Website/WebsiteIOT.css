@@ -1,28 +1,72 @@
-body{
-    background-color: rgb(255, 255, 255);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('ss5.jpg');
+/*body {
+  height: 100%;
+  background-image: url(black-and-white-decorating-ideas-big-black-floor-mat-black-curtains.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-origin: content-box 
 }
 
+
 legend{
+  
+  padding-top: 50px;
   font-size: xx-large;
-  color: rgb(61, 61, 61);
+  color: rgb(0, 0, 0);
   font-style: italic;
 }
 
 label{
-color: rgb(55, 56, 56);
+color: rgb(0, 0, 0);
+
 }
 
 fieldset{
+  padding-top: 75px;
+  background-color: gray;
+  padding-left: 50px;
   text-align: left;
   width: 300px;
-  height: 100px; 
+  height: 75px; 
   padding: 10px; 
   margin: 20px;
 
 }
 img{
-  align-items: center;
+  height: 200px;
+  width: 500px;
+}
+*/
+body {
+  height: 100%;
+  background-image: url(black-and-white-decorating-ideas-big-black-floor-mat-black-curtains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* Use 'cover' instead of 100% to ensure proper scaling */
+  background-origin: padding-box; /* Better default for backgrounds */
+}
+
+legend {
+  padding-top: 50px;
+  font-size: xx-large;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+
+label {
+  color: rgb(0, 0, 0);
+}
+
+fieldset {
+  padding: 20px; /* Consolidated padding into one shorthand */
+  background-color: gray;
+  text-align: left;
+  width: 300px;
+  height: auto; /* Set to 'auto' to adjust to content */
+  margin: 20px;
+  border-color: black;
+}
+
+img {
+  height: 200px;
+  width: 500px;
+
 }
